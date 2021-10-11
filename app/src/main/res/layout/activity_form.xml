@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Blood Request Form"
+        android:textColor="#ce3232"
+        android:textSize="25dp"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patName"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="30dp"
+        android:hint="Patient's Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/relname"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Relative's Name"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phno"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="Phone No"
+        android:inputType="phone" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/volName"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:hint="FFI Volunteer Name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bldgrp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginTop="10dp"
+        android:hint="Blood Group"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/msg"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="top"
+        android:hint="Your Message"
+        android:fitsSystemWindows="true"
+        android:breakStrategy="balanced"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:padding="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btnform"
+        android:elevation="4dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="Submit"
+        android:textColor="#fff" />
+
+</LinearLayout>
+</ScrollView>
